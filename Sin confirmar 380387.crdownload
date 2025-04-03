@@ -1,0 +1,21 @@
+numero1 = float(input("Ingrese un número: "))
+
+numero2 = float(input("Ingrese otro número: "))
+
+if numero1 > numero2:
+    print("El número mayor es", numero1)
+
+elif numero1 < numero2:
+    print("El número mayor es", numero2)
+else:
+    print("Ambos números son iguales")
+       
+A = input("Ingrese el valor de A: 10 ")
+
+B = input("Ingrese el valor de B: 20 ")
+
+A, B = B, A
+
+print("Después del intercambio:")
+print("Valor de A:", A)
+print("Valor de B:", B)
